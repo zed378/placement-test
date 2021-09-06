@@ -19,7 +19,7 @@ function bubbleSort(a, param) {
     do {
         swap = false;
         for (var i = 0; i < a.length - 1; i++) {
-            if (a[i][par] > a[i + 1][param]) {
+            if (a[i][param] > a[i + 1][param]) {
                 var temp = a[i];
                 a[i] = a[i + 1];
                 a[i + 1] = temp;
